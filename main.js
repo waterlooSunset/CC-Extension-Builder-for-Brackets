@@ -78,7 +78,7 @@ define(function (require, exports, module) {
                 
         var cmd = "";
         if(isWin) {
-            cmd = '"'+sdkFolder.fullPath + "createext.bat" + '" default ' + 'New Project';
+            cmd = '"'+sdkFolder.fullPath + "createext.bat" + '" default ' + 'NewProjects';
         } else {
             cmd = "'"+sdkFolder.fullPath + "createext.sh"  + "' default " + data.extid;
         } 
