@@ -78,7 +78,7 @@ define(function (require, exports, module) {
                 
         var cmd = "";
         if(isWin) {
-            cmd = '"'+sdkFolder.fullPath + "createext.bat" + '" default ' + data.extid + "'";
+            cmd = '" C:\Users\Brandon Stapleton\CC-Extension-Builder-for-Brackets\CC-EXT-SDK\templates createext.bat"' + '" default ' + data.extid + "'";
         } else {
             cmd = "'"+sdkFolder.fullPath + "createext.sh"  + "' default " + data.extid;
         } 
